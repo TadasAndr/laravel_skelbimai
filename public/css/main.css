@@ -1,0 +1,138 @@
+/*main elements*/
+
+body {
+    width: 100%;
+}
+
+nav, main, .search-box {
+    width: 68%;
+    margin: auto;
+}
+
+main {
+    margin-top: 25px;
+    padding: 50px 0;
+    background-color: #F6FBF4;
+    border-radius: 15px;
+    filter: drop-shadow(10px 5px 2px #bce7c8);
+}
+
+/*navigation bar*/
+
+.navigation-content {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.vl {
+    margin: 8px;
+    border-left: 2px solid black;
+    height: 40px;
+}
+
+.add-ad-button {
+    background-image: linear-gradient(to right,red,#F64C72);
+    font-size: 20px;
+    color: white;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+.action-logins {
+    position: absolute;
+    right: 0;
+}
+
+.action-login {
+    background-image: linear-gradient(to right,red,#F64C72);
+    font-size: 20px;
+    color: white;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+.action-logoff {
+    background-image: linear-gradient(to right,red,#F64C72);
+    font-size: 20px;
+    color: white;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+/*navigation bar end*/
+
+/*search box*/
+
+.search-box {
+    margin-top: 20px;
+    background-color: #F6FBF4;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    filter: drop-shadow(10px 5px 2px #bce7c8);
+}
+
+.search-item input{
+    width: inherit;
+}
+
+.search-select, .search-input {
+    min-height: 40px;
+}
+
+.search-input {
+    width: 100%
+}
+
+.search-select {
+    min-width: 200px;
+}
+/*search box end*/
+
+/*main page*/
+
+/*bootstrap edits*/
+
+.container {
+    margin: 0;
+}
+
+.row:first-child {
+    margin: 0 auto 50px auto;
+}
+
+/*bootstrap edit end*/
+
+.main-categories {
+    background-color: white;
+    min-height: 95%;
+}
+.category-head-text {
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.category-head-text a {
+    text-decoration: none;
+    color: green;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*main page end*/
+
+/*single ad*/
+
+
+
+/*single ad end*/

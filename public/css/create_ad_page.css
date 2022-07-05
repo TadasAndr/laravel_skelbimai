@@ -1,0 +1,35 @@
+form {
+    width: 60%;
+    margin: auto;
+}
+
+.ad-creation-form-box {
+    border-top: 1px solid black;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 68%;
+    margin: 10px auto 0 auto;
+}
+
+.form-item p {
+    display: inline;
+    vertical-align: top;
+}
+
+.form-item {
+    margin: auto;
+    text-align: right;
+}
+
+.form-item:not(:first-child) {
+    margin-top: 20px;
+}
+
+.form-item select, textarea, input {
+    width: 500px;
+}
+
+input {
+    margin: auto;
+}

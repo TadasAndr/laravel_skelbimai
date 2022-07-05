@@ -1,0 +1,38 @@
+.result-page-main {
+    background-color: white !important;
+}
+
+.result-item {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 98%;
+}
+
+.result-item:not(:first-child) {
+    border-top: 1px solid black;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.result-item-element {
+
+}
+
+.result-item img {
+     max-width: 200px;
+}
+
+.result-item a {
+    text-decoration: none;
+    color: #2F2FA2;
+}
+
+.price {
+    vertical-align: bottom;
+    font-weight: bolder;
+}
+
+.result-component {
+    margin-left: 10px;
+}
